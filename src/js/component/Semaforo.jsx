@@ -19,7 +19,7 @@ return (
         <div
           onClick={() => colorDeLuz('red')}
           className={`rounded-circle mx-auto ${
-            activarColor === 'red' ? 'bg-danger' : 'bg-secondary'
+            activarColor === 'red' ? 'bg-danger ' : 'bg-danger bg-opacity-50'
           }`}
           style={{
             width: '60px',
@@ -30,7 +30,7 @@ return (
         <div
           onClick={() => colorDeLuz('yellow')}
           className={`rounded-circle mx-auto ${
-            activarColor === 'yellow' ? 'bg-warning' : 'bg-secondary'
+            activarColor === 'yellow' ? 'bg-warning' : 'bg-warning bg-opacity-50'
           }`}
           style={{
             width: '60px',
@@ -41,7 +41,7 @@ return (
         <div
           onClick={() => colorDeLuz('green')}
           className={`rounded-circle mx-auto ${
-            activarColor === 'green' ? 'bg-success' : 'bg-secondary'
+            activarColor === 'green' ? 'bg-success' : 'bg-success bg-opacity-50'
           }`}
           style={{
             width: '60px',
